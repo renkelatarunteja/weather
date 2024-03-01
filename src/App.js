@@ -29,8 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <input 
+            <input 
         type="text" 
         placeholder="Enter city name" 
         value={cityName} 
