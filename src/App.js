@@ -38,7 +38,7 @@ function App() {
       <button onClick={searchWeather}>Search</button>
       {loading && <p>Loading data...</p>}
       {weatherData && (
-        <div>
+        <div className="weather-cards">
           <div className="weather-card">
             <h3>Temperature</h3>
             <p>{weatherData.current.temp_c}°C</p>
